@@ -36,6 +36,7 @@ See <http://matztada.github.io/other/lego/Building%20Instructions%20[babaClientL
 Check pin assignment to enable switching ON/OFF  
 <https://www.sparkfun.com/tutorials/379>
 
+###Wiring
 <a><img src="https://github.com/matzTada/Baba/blob/master/schematic/frizzing/xbeeLiPo_breadboard.png" alt="" width=50%></a>  
 
 ###XBee setting
