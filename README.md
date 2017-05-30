@@ -1,4 +1,4 @@
-#Baba!
+# Baba!
 Attempt to make one's hand card shaffling system in BabaArashi  
 BabaArashi(baba嵐 in Japanese) is a card game which is almost same to the Japanese card game calld "Daifugo"(Refer [Wikipedia](https://en.wikipedia.org/wiki/Daifug%C5%8D) for rules)  
 
@@ -7,7 +7,7 @@ BabaServer calculate who exchanges one's card to whom, when BabaClient send a pa
 That's all.  
 Nothing more, nothing less.  
 
-#BabaServer
+# BabaServer
 Usual state  
 Who exchanges whom is written  
 You can see the clock, too. Nice!  
@@ -18,7 +18,7 @@ After 5 seconds (or several seconds) return to usual state.
 
 XBee must be connected to the computer which runs BabaServer program.
 
-#BabaClient
+# BabaClient
 
 ## Schematic 1: XBee x Arduino Fio v3 x Li-Po battery x LEGO
 Connect XBee, Arduino Fio v3, Li-Po battery, and button  
@@ -36,10 +36,10 @@ See <http://matztada.github.io/other/lego/Building%20Instructions%20[babaClientL
 Check pin assignment to enable switching ON/OFF  
 <https://www.sparkfun.com/tutorials/379>
 
-###Wiring
+### Wiring
 <a><img src="https://github.com/matzTada/Baba/blob/master/schematic/frizzing/xbeeLiPo_breadboard.png" alt="" width=50%></a>  
 
-###XBee setting
+### XBee setting
 Some property must be changed to do IO detecting and communicating.  
 Set Distination address. (Notice!! PAN ID must be same to the XBee Coodinator)  
 <a><img src="https://github.com/matzTada/Baba/blob/master/xbeeSetting/xbeeSetting1.png" alt="" width=50%></a>  
